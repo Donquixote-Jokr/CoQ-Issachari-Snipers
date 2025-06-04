@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<objects>
+	<object Name="Donquixote_IssachariSniper_Issachari Sniper" Inherits="BaseIssachari">
+		<part Name="Description" Short="The wind blows across this humanoid form, causing their dark cloak to sway in the wind as they raise a scope to their bloodshot eye," />
+		<part Name="Render" DisplayName="Issachari Sniper" Tile="Donquixote_Issachari_Sniper/IssachariSniperbaw.png" ColorString="&amp;y" DetailColor="R" />
+		<part Name="Corpse" CorpseChange="0" CorpseBlueprint="Snapjaw Corpse" />
+		<part Name="Brain" Hostile="false" Factions="Issachari-100" />
+		<stat Name="Hitpoints" Value="12" />
+		<stat Name="Level" Value="8" />
+		<inventoryobject Blueprint="Donquixote_Desert_Sniper" Number="1" />
+		<inventoryobject Blueprint="Lead Slug" Number="12" />
+		<inventoryobject Blueprint="Long Sword" Number="1" />
+		<tag Name="DynamicObjectsTable:Saltdunes_Creatures" />
+		<tag Name="DynamicObjectsTable:Saltdunes_Creatures:Weight" Value="3" />
+	</object>
+</objects>

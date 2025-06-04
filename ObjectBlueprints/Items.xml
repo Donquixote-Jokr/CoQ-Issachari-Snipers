@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<objects>
+	<object Name="Donquixote_Desert_Sniper" Inherits="BaseMagazineRifle">
+		<part Name="Description" Short="This Sniper belongs to the elite of the Issachari Tribe, only those whose bloodshot eyes aim true can wield this powerful firearm," />
+		<part Name="Render" DisplayName="Issachar sniper" Tile="Donquixote_Desert_Sniper/DesertSniperbaw.png" ColorString="&amp;y" DetailColor="w" />
+		<part Name="Physics" Weight="10" UsesTwoSlots="True" />
+		<part Name="Commerce" Value="100" />
+		<part Name="MissileWeapon" Skill="Rifle" ShotsPerAction="1" AmmoPerAction="1" ShotsPerAnimation="1" WeaponAccuracy="3" />
+		<part Name="MagazineAmmoLoader" ProjectileObject="ProjectileDesertSniperShell" AmmoPart="AmmoSlug" MaxAmmo="3" />
+		<part Name="Metal" />
+		<part Name="TinkerItem" Bits="0023" CanDisassemble="true" CanBuild="true" />
+		<tag Name="Tier" Value="2" />
+		<tag Name="DynamicObjectsTable:Guns" />
+		<tag Name="MissileFireSound" Value="Sounds/Missile/Fires/Rifles/sfx_missile_sniperRifle_fire" />
+			<stag Name="Contemporary" />
+	</object>
+	<!--  Ammo  -->
+	<object Name="ProjectileDesertSniperShell" Inherits="BaseLeadSlugProjectile">
+		<part Name="Projectile" BasePenetration="3" BaseDamage="1d10" />
+    </object>
+
+</objects>
