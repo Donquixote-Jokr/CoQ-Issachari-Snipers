@@ -1,0 +1,15 @@
+<populations>
+<!-- Guns  -->
+	<population Name="Guns 2" Load="Merge">
+		<group Name="Items" Style="pickone">
+			<object Blueprint="Donquixote_Desert_Sniper" Weight="35" />
+		</group>
+	</population>
+<!-- Creatures -->	
+	<population Name="IssachariParty" Load="Merge">
+		<group Name="Creatures" Stytle="pickeach">
+			<object Chance="25" Number="2" Blueprint="Donquixote_IssachariSniper_Issachari Sniper" />
+			<object Chance="5" Number="1-2" Blueprint="Donquixote_IssachariSniper_Issachari Sniper" />
+		</group>
+	</population>
+</populations>

@@ -1,0 +1,9 @@
+{
+	"id": "Donquixote_IssachariSniper",
+	"title": "Issachari and their Desert Snipers",
+	"Description": "Adds new Issachari Snipers and an obtainable weapon to accompany them.",
+	"version": "0.1.0",
+	"Author": "Donquixote",
+	"tags": "Creature,Weapon",
+	"PreviewImage": "preview.png"
+} 
