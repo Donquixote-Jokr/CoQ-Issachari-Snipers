@@ -1,5 +1,7 @@
 Caves of Qud Issachari Snipers: A mod that adds 1 new creature (Issachari Sniper) and 1 new weapon (Issachar Sniper) to CoQ
 
+I'm adding it to github simply for documentation.
+
 Version-1.0
 
 Steam Workshop- https://steamcommunity.com/sharedfiles/filedetails/?id=3490053773
